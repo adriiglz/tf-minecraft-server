@@ -6,7 +6,6 @@ variable "environment_variables" {
   type = map
   default = {
     EULA = true
-    DIFFICULTY = "hard"
-    MODE = "creative"
+    DIFFICULTY = "pacific"
   }
 }
