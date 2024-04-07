@@ -16,11 +16,6 @@ resource "azurerm_container_group" "minecraft_server" {
     environment_variables = var.environment_variables
 
     ports {
-      port     = 80
-      protocol = "TCP"
-    }
-
-    ports {
       port     = 25565 // Puerto default de Minecraft
       protocol = "TCP"
     }

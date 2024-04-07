@@ -7,5 +7,6 @@ variable "environment_variables" {
   default = {
     EULA = true
     DIFFICULTY = "hard"
+    MODE = "creative"
   }
 }
